@@ -1,0 +1,564 @@
+body {
+  font-family: "Ubuntu";
+  background: white;
+}
+
+/*Navbar settings CSS*/
+.navbar {
+  font-family: "Ubuntu";
+}
+
+.bgcolor.ontop {
+  background-color: #eae6ff;
+  transition: background-color 200ms linear;
+}
+.bgcolor.scrolled {
+  background-color: white !important;
+  transition: background-color 200ms linear;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.nav-link {
+  margin-right: 5px;
+  color: #0065ff;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #0065ff;
+  width: 100%;
+  margin: auto;
+  margin-bottom: -3px;
+}
+
+.btnSign {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  margin-right: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  width: 90px;
+  border-radius: 4px;
+}
+/*End of Navbar settings CSS*/
+
+/* Jumbotron Settings */
+.jumbotron {
+  background: linear-gradient(to bottom, #eae6ff, white);
+}
+.leadtext {
+  margin-top: 250px;
+  margin-left: 300px;
+  font-weight: 500;
+  font-size: 45px;
+  font-family: "Ubuntu";
+}
+.collaborate {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.form-control {
+  font-size: 20px;
+  margin-left: 200px;
+  width: 430px;
+}
+
+.btnBodySign {
+  font-weight: 300;
+  width: 300px;
+}
+
+.imgHero {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 1100px;
+}
+.inputEmail {
+  bottom: 30px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 300px;
+  width: 350px;
+}
+.btnEmail {
+  position: relative;
+  left: -180px;
+  width: 280px;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5spx;
+  height: 45px;
+}
+
+/*End of Jumbotron Settings */
+
+/* Content */
+.contents {
+  position: relative;
+  margin-top: 280px;
+  background: white;
+  text-align: center;
+}
+.row .itsmore {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 100px;
+}
+
+.contents p {
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.contents .btn {
+  margin-top: 10px;
+  border-radius: 8px;
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+}
+
+.arrow {
+  height: 22px;
+  width: 26px;
+  color: #0065ff;
+  margin-left: 8px;
+}
+.contents .img-fluid {
+  height: 1000px;
+  margin-top: 30px;
+}
+
+.contents .join {
+  margin-top: 20px;
+  font-size: 22px;
+}
+/* End of Content */
+
+/* Brands styles */
+.brand {
+  position: relative;
+  background: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -20px;
+}
+.brand img {
+  margin-top: -30px;
+}
+
+.brand .costco {
+  margin-left: 0;
+}
+
+.brand .square {
+  position: relative;
+}
+
+/* End of Brands styles */
+
+/* Features styles */
+.features {
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.features h2 {
+  font-size: 40px;
+}
+
+.contents h2 {
+  font-size: 35px;
+}
+/* The Board styles */
+.board {
+  text-align: left;
+}
+
+.board h3 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.board .lists {
+  font-weight: 400;
+  opacity: 50%;
+  margin-bottom: 30px;
+}
+
+.board .operator {
+  position: relative;
+  bottom: 5px;
+}
+.board .learn {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.learn:hover::after {
+  position: relative;
+  top: -8px;
+  content: "";
+  display: block;
+  border-bottom: 2px solid black;
+  width: 130px;
+  margin-left: 30px;
+  margin-bottom: -2px;
+}
+.board .listsText {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  animation: slide-bottom 1s;
+}
+
+.board ul li {
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 30px;
+  font-weight: 400;
+  animation: slide-bottom 1s;
+}
+
+/*End of The Board styles */
+
+/* Animations for Learn More */
+@keyframes slide-bottom {
+  from {
+    transform: translateY(-5px);
+  }
+
+  to {
+    transform: translateY(0px);
+  }
+}
+
+/* Animation for Slides  */
+@keyframes anim {
+  from {
+    transform: translateX(50%);
+  }
+
+  to {
+    transform: translateX(0px);
+  }
+}
+/* Products Info */
+
+.dive {
+  margin-top: 100px;
+  text-align: left;
+}
+.dive .lists {
+  font-weight: 500;
+  opacity: 50%;
+  margin-bottom: 30px;
+}
+
+.dive .operator {
+  position: relative;
+  bottom: 5px;
+}
+.dive .learn {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.dive .listsText_2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  animation: slide-bottom 1s;
+}
+
+.dive ul li {
+  font-size: medium;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 30px;
+  font-weight: 400;
+  animation: slide-bottom 1s;
+}
+
+.automation {
+  margin-top: 100px;
+}
+
+/* Products Info */
+
+/* Checkout Pricing styles */
+.checkout {
+  border-top: 1px solid;
+  margin-top: 150px;
+  text-align: left;
+  border-bottom: 1px solid;
+  padding: 30px;
+}
+
+.checkout p {
+  font-size: 22px;
+}
+.checkout .btn {
+  border-radius: 3px;
+  height: 50px;
+  width: 200px;
+}
+.checkout img {
+  float: right;
+}
+
+.checkout .tour {
+  margin-left: 100px;
+}
+/* End of Checkout Pricing styles */
+
+/* Customer-Stories  */
+
+.customer-stories {
+  position: relative;
+  margin: -170px;
+  margin-top: 50px;
+  background-color: #e6fcff;
+  height: 500px;
+}
+
+.customer-stories .industry {
+  font-size: 22px;
+  font-weight: 400;
+  position: relative;
+  top: -180px;
+}
+.customer-stories .industry_type {
+  font-size: 26px;
+  font-weight: 500;
+  position: relative;
+  top: -180px;
+}
+
+.detroid {
+  margin-top: 250px;
+}
+.imgDetroid {
+  position: relative;
+  top: -120px;
+  margin-top: -10;
+  margin-left: -50px;
+}
+.customer-stories .detroit {
+  position: relative;
+  top: -200px;
+}
+.customer-stories .detroit-2 {
+  font-size: 26px;
+  font-weight: 500;
+  position: relative;
+  top: -180px;
+}
+
+.customer-stories img {
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+
+.stories h1 {
+  margin-top: -10px;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.stories p {
+  font-size: 18px;
+  text-align: right;
+  font-weight: 500;
+}
+
+/* Slides Arrow */
+.arrow-left {
+  background-color: #172b4d;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+  margin-top: 30px;
+  align-items: center;
+  position: relative;
+  right: 10px;
+}
+.arrow-right {
+  background-color: #172b4d;
+  border-radius: 5px;
+  height: 35px;
+  width: 35px;
+  margin-top: 30px;
+  align-items: center;
+  position: relative;
+  right: 100px;
+}
+.slides img {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.slides {
+  margin-top: 0px;
+  border-top: 5px solid #172b4d;
+}
+/*End of Slides Arrow */
+
+/* Dot Slides styles */
+.dot {
+  position: relative;
+  right: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-right: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #172b4d;
+}
+
+/* End of Dot Slides styles */
+.mySlides {
+  height: 400px;
+  animation: anim 0.2s;
+}
+
+/* Customer-Stories  */
+
+.sign-up {
+  margin-top: 500px;
+  background: #eae6ff;
+  background-image: (linear, left bottom, left top, from(#4c9aff), to(#403294));
+  background-image: linear-gradient(0deg, #4c9aff, #403294 100%);
+  background-image: url(https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/sign-up/95ae6a1535b6504e3572dc7393a2d482/background.svg),
+    (linear, left bottom, left top, from(#4c9aff), to(#403294));
+  background-image: url(https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/sign-up/95ae6a1535b6504e3572dc7393a2d482/background.svg),
+    linear-gradient(0deg, #4c9aff, #403294 100%);
+  width: 100%;
+  height: 300px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.signEmail {
+  position: relative;
+  margin-top: -30px;
+  right: -100px;
+  width: 450px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+.signBtn {
+  position: relative;
+  margin-top: -30px;
+  right: -110px;
+  border-radius: 8px;
+  height: 60px;
+  width: 210px;
+  border: none;
+  padding: 12px;
+  font-size: 22px;
+  background-color: #00b8d9;
+  font-weight: 500;
+}
+
+.apps {
+  height: 130px;
+  margin: -170px;
+  margin-top: 50px;
+  background-color: #fafbfc;
+}
+.apple {
+  position: relative;
+  margin-left: 850px;
+  margin-top: -100px;
+}
+
+.google {
+  position: relative;
+  margin-left: 1080px;
+  margin-top: -150px;
+}
+
+/* Footer  */
+footer {
+  margin-top: 200px;
+}
+
+select {
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  opacity: 50%;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  border-radius: 4px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.links {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.links li {
+  list-style-type: none;
+}
+.links a {
+  color: black;
+  opacity: 50%;
+  padding: 2px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer img {
+  margin-top: -30px;
+  opacity: 30%;
+}
+
+.footer-copyright {
+  margin-top: -40px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Ubuntu";
+}
+
+/* Footer  */

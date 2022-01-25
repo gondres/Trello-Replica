@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<head>
+    <title>Trello</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+    <!--My CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Ubuntu Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-light bgcolor">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/trello_logo.svg" alt="" height="56" width="146" class="d-inline-block align-text-top">
+          </a>
+          <form class="d-flex ">
+            <a class="nav-link" aria-current="page" href="#">Log in</a>
+            <button type="button " class="btn btn-primary btnSign">Sign up</button>
+          </form>
+        </div>
+      </nav>
+      <!--End of Navbar -->
+
+      <!-- Jumbotron -->
+      
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-8">
+                    <h1 class="display-4 leadtext">Trello helps teams move work <br>forward.</h1>
+                </div>
+                <div class="col-4 imgHero">
+                    <img src="img/hero.png" alt="" height="550px">
+                </div>
+                <div class="col-8">
+                    <p class="collaborate">Collaborate, manage projects, and reach new productivity peaks.<br> From high rises to the home office, the way your team works is <br>unique—accomplish it all with Trello.</p>
+                </div>
+                <div class="col-6 ">
+                   
+                    <input class="form-control inputEmail" type="search" placeholder="Email" aria-label="Search">
+                </div>
+                <div class="col-4">
+                    <a class="btn btn-primary btn-lg btnEmail" href="#" role="button">Sign up-it's free!</a>
+                </div>
+            </div> 
+        </div>
+    
+      <!-- End of Jumbotron -->
+
+
+      <!-- Contents -->
+      <div class="container">
+      <div class="row contents">
+          <div class="col-12 ">
+              <h2 class="itsmore">It’s more than work. It’s a way of working together.</h2>
+              <p>Start with a Trello board, lists, and cards. Customize and expand with  more features as your<br> teamwork grows. Manage projects, organize tasks, and build team spirit—all in one place.</p>
+          </div>
+          <div class="col-12">
+              <button type="button" class="btn btn-outline-primary">Start doing<span><svg class="arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="32" height="32"
+                viewBox="0 0 171 171"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,171.99544v-171.99544h171.99544v171.99544z" fill="none"></path><g fill="#3498db"><path d="M169.43962,81.72197l-42.75,-42.75c-1.34168,-1.38914 -3.3285,-1.94626 -5.19684,-1.45723c-1.86833,0.48904 -3.32742,1.94812 -3.81645,3.81645c-0.48904,1.86833 0.06808,3.85516 1.45723,5.19684l33.62822,33.62822h-147.41803c-2.95127,0 -5.34375,2.39248 -5.34375,5.34375c0,2.95127 2.39248,5.34375 5.34375,5.34375h147.41803l-33.62822,33.62822c-1.38914,1.34168 -1.94626,3.3285 -1.45723,5.19684c0.48904,1.86833 1.94812,3.32742 3.81645,3.81645c1.86833,0.48904 3.85516,-0.06808 5.19684,-1.45723l42.75,-42.75c2.0861,-2.08673 2.0861,-5.46933 0,-7.55606z"></path></g></g></svg> </span></button>
+          </div>
+          <div class="col-12 align-self-center">
+              <img class="img-fluid" src="img/board.png" alt="">
+          </div>
+          <div class="col-12">
+              <p class="join">Join over 1,000,000 teams worldwide that are using Trello to get more done.</p>
+          </div>
+
+          <!-- Brands -->
+            <div class="row brand align-items-center">
+                <div class="col-8">
+                    <img src="img/google.jpg" alt="" height="75px" width="125px">
+                    <img src="img/fender-3.svg" alt="" height="75px" width="125px">
+                    <img src="img/SquareSpace.svg" alt="" height="200px" class="square">
+                    <img class="costco"src="img/costco.svg" alt="" height="75px" width="125px">
+                </div>
+              </div>
+          <!-- End of Brands -->
+
+          <div class="col-12 features">
+                <h2>Features to help your team <br>succeed</h2>
+                <p>Powering a productive team means using a powerful<br> tool (and plenty of snacks). From meetings and projects<br> to events and goal setting,
+                     Trello’s intuitive features give<br> any team the ability to quickly set up and customize <br>workflows for just about anything.</p>
+          </div>
+          <!-- Learn more 1 -->
+          <div class="row productsInfo">
+          <div class="col-5 mt-5">
+              <img src="img/view.svg" alt="" class="float-left" >
+            </div>
+              <div class="col-7 mt-5 board">
+                <h3>CHOOSE A VIEW</h3>
+                <h2>The board is just the beginning</h2>
+                <p class="lists">Lists and cards are the building blocks of organizing work on a Trello board. Grow from there with task assignments, timelines, productivity metrics, calendars, and more.</p>   
+                <span ><img class="operator" src="https://img.icons8.com/ios-filled/50/000000/plus-math.png" height="20px" width="20px" id="listsPlusclick"/><span><img class="operator" src="https://img.icons8.com/material/24/000000/minus--v2.png" id="listsMinusclick" height="20px" width="20px"/></span> <span class="learn">Learn more</span>
+                <p class="listsText" id="listsYou" >You and your team can start up a Trello board in seconds. With the<br> ability to view board data from 
+                    many different angles, the entire team<br> stays up-to-date in the way that suits them best:
+                    <ul id="listsText">
+                        <li id="listsText">Use a Timeline view for project planning</li>
+                        <li id="listsText">Calendar helps with time management</li>
+                        <li id="listsText">Table view connects work across boards</li>
+                        <li id="listsText">See board stats with Dashboard, and more!</li>
+                    </ul>
+                </p>
+              </div>
+
+            <!-- Learn more 2 -->
+              <div class="row dive">
+                <div class="col-7 mt-5 board">
+                    <h3>DIVE INTO THE DETAILS</h3>
+                    <h2>Cards contain everything you need</h2>
+                    <p class="lists">Trello cards are your portal to more organized work—where every single part of your task can be managed, tracked, and shared with teammates. Open any card to uncover an ecosystem of checklists, due dates, attachments, conversations, and more.</p>   
+                    <span ><img class="operator" src="https://img.icons8.com/ios-filled/50/000000/plus-math.png" height="20px" width="20px" id="listsPlusclick_2"/><span><img class="operator" src="https://img.icons8.com/material/24/000000/minus--v2.png" id="listsMinusclick_2" height="20px" width="20px"/></span> <span class="learn">Learn more</span>
+                    <p class="listsText_2" id="listsYou_2" >Spin up a Trello card with a click, then uncover everything it can hold.<br>Break down bigger card tasks into steps
+                        with file attachment previews,<br> reminders, checklists and comments-emoji reactions included! Plus,<br> gain powerful perspective by seeing all cards by list and status at the<br> board level
+                        <br>
+                        <br>
+                        You Team can:
+                        <br>
+                        <ul id="listsText_2">
+                            <li id="listsText">Manage deadlines</li>
+                            <li id="listsText">Provide and track feedback</li>
+                            <li id="listsText">Assign tasks and hand off work</li>
+                            <li id="listsText">Connect work across apps</li>
+                        </ul>
+                    </p>
+                   
+                  </div>
+                    <div class="col-5 mt-5 cards">
+                        <img src="img/card-back.svg" alt=""  >
+                    </div>
+                  </div>
+
+                  <!-- Learn more 3 -->
+                  <div class="row automation">
+                    <div class="col-5 mt-5">
+                        <img src="img/automation.png" alt="" class="automateImg" height="350px" width="500px"  >
+                      </div>
+                        <div class="col-7 mt-5 board">
+                          <h3>MEET YOUR NEW BUTLER</h3>
+                          <h2>No-code automation</h2>
+                          <p class="lists">Let the robots do the work—so your team can focus on work that matters. With Trello’s built-in automation, Butler, reduce the number of tedious tasks (and clicks) on your project board by harnessing the power of automation across your entire team.</p>   
+                          <span ><img class="operator" src="https://img.icons8.com/ios-filled/50/000000/plus-math.png" height="20px" width="20px" id="listsPlusclick_3"/><span><img class="operator" src="https://img.icons8.com/material/24/000000/minus--v2.png" id="listsMinusclick_3" height="20px" width="20px"/></span> <span class="learn">Learn more</span>
+                          <p class="listsText" id="listsYou_3" >Butler uses natural language commands to automate just about any task in Trello:
+                              <ul id="listsText_3">
+                                  <li id="listsText">Automate common actions like moving lists</li>
+                                  <li id="listsText">Create custom buttons to build process quickly</li>
+                                  <li id="listsText">Surface upcoming deadlines to the team</li>
+                                  <li id="listsText">Schedule teammate assignments, and more!</li>
+                              </ul>
+                          </p>
+                        </div>
+                    </div>
+
+                    <!-- Learn more 4 -->
+                    <div class="row dive">
+                        <div class="col-7 mt-5 board">
+                            <h3>POWER-UPS</h3>
+                            <h2>Integrate top work tools</h2>
+                            <p class="lists">Easily connect the apps your team already uses into your Trello workflow, or add a Power-Up that helps fine-tune one specific need. With hundreds of Power-Ups available, your team’s workflow wishes are covered.</p>   
+                            <span ><img class="operator" src="https://img.icons8.com/ios-filled/50/000000/plus-math.png" height="20px" width="20px" id="listsPlusclick_4"/><span><img class="operator" src="https://img.icons8.com/material/24/000000/minus--v2.png" id="listsMinusclick_4" height="20px" width="20px"/></span> <span class="learn">Learn more</span>
+                            <p class="listsText_2" id="listsYou_4" >From Reporting to Custom Fields to your beloved software integrations-we've got functionalities, your favorites, and more!<br>
+                                <br>
+                                Such as:
+                                <br>
+                                <ul id="listsText_4">
+                                    <li id="listsText">Confluence</li>
+                                    <li id="listsText">Slack</li>
+                                    <li id="listsText">Dropbox</li>
+                                    <li id="listsText">Google Drive</li>
+                                    <li id="listsText">Evernote</li>
+                                </ul>
+                            </p>
+                          </div>
+                            <div class="col-5 mt-5 cards">
+                                <img src="img/power-ups.png" alt="" height="500px" width="550px" >
+                            </div>
+                          </div>
+                  
+                        <div class="container checkout">
+                            <div class="row">
+                                <div class="col-2">
+                                    <img src="img/tag.svg" alt="" height="200px" width="250px">
+                                </div>
+                                <div class="col-4">
+                                    <h3>See Our Pricing</h3>
+                                    <p>Whether you're a team of 2 or 2,000,<br>
+                                        theres a Trello tailor-made for your organization.
+                                    </p>
+                                    <button type="button" class="btn btn-outline-primary">Trello Pricing</button>
+                                </div>
+                                <div class="col-1 tour">
+                                    <img src="img/compass.svg" alt="" height="150px" width="200px">
+                                </div>
+                                <div class="col-4">
+                                    <h3>Take a Trello tour</h3>
+                                    <p>Explore the world of boards and beyond in Trello. Dive deeper into our most popular features.
+                                    </p>
+                                    <button type="button" class="btn btn-outline-primary">Tour Trello</button>
+                                </div>
+                            </div>
+                        </div>
+                   
+                    </div>
+                  
+                      <!-- End of Learn more -->
+                     </div>
+                   
+                     <!-- Customer Stories -->
+                     <div class="customer-stories">
+                        <div class="container">
+                            <div class="mySlides ">
+                                <div class="row align-items-center">
+                                    <div class="col-4">
+                                        <img class="float-left" src="img/ebay.svg" alt="" height="350px" width="300px">
+                                        <h5 style="margin-top: -200px;">INDUSTRY</h3>
+                                       <h3>eCommerce</h3>
+                                    </div>
+                                    <div class="col-8 stories">
+                                        <img src="img/quote.png" alt="" style="margin-left: -50px; margin-top: 50px;">
+                                        <h1 style="margin-top: -100px;">Everyone loves it; it has democratized our finance function. In some ways Trello shattered hierarchy and brought us together.</h1>
+                                        <p>BHARATH SUNDAR<br>Finance, ebay</p>
+                                    </div>
+                                </div>
+                            </div>
+                           
+
+                           <div class="container mySlides">
+                            <div class="row align-items-center">
+                                <div class="col-4">
+                                    <img class="float-left" src="img/egencia-vector-logo.svg" alt="" height="300px" width="350px">
+                                    <h5 style="margin-top: -150px;">INDUSTRY</h3>
+                                    <H3>Travel</H3>
+                                </div>
+                                <div class="col-8 stories">
+                                    <img src="img/quote.png" alt="" style="margin-left: -50px;margin-top: 50px;">
+                                    <h1 style="margin-top: -100px;">Very simple to use, great automation and keeps me on track with all I need to do. I also like that it can be shared with others.</h1>
+                                    <p>KERRY PARKER EVANS<br>IT Project Manager, Egencia</p>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="container mySlides">
+                            <div class="row align-items-center">
+                                <div class="col-4 detroid">
+                                    <img class="float-left imgDetroid" src="img/detroid-logo.png" alt="" height="150px" width="200px">
+                                    <h5 class="detroit">INDUSTRY</h5>
+                                    <H3 class="detroit">Sport</H3>
+                                </div>
+                                <div class="col-8 stories">
+                                    <img src="img/quote.png" alt="" style="margin-left: -50px;">
+                                    <h1 style="margin-top: -100px;">Trello makes it easy to keep everyone on the same page. As changes happen, the real-time updates with email notifications have been key.</h1>
+                                    <p>HAYDON DOTSON<br>Sales Manager, Detroid Red Wings</p>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                        <div class="container mySlides">
+                            <div class="row align-items-center">
+                                <div class="col-4">
+                                    <img class="float-left" src="img/sprout_social.png" alt="" height="100px" width="150px" style="margin-top:10px;">
+                                    <h5 style="margin-top: -50px;">INDUSTRY</h5>
+                                   <h3>Marketing</h3>
+                                </div>
+                                <div class="col-8 stories">
+                                    <img src="img/quote.png" alt="" style="margin-left: -50px;margin-top: 50px;">
+                                    <h1 style="margin-top: -100px;">Now that we've switched to a remote environment, with the use of Trello, we can now limit the number of meetings we have regarding specific projects and turn to Trello for updates instead.</h1>
+                                    <p>HALLEY ENNES<br>HR Manager, Sprout Social</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Slides Stories -->
+                        <div class="row slides align-items-center">
+                            <div class="col-1">
+                                <div class="arrow-left">
+                                    <img src="img/left-arrow.png" alt="" height="25px" width="25px" onclick="plusSlides(-1)" >
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div style="text-align:left">
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                  </div>
+                            </div>
+                            <div class="col-1">
+                                <div class="arrow-right">
+                                    <img src="img/right-arrow.png" alt="" height="25px" width="25px" onclick="plusSlides(1)" >
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Slides Stories -->
+                        </div>
+                       </div>
+
+                       <!-- End of Customer Stories -->
+
+                       <!-- Sign Up Email -->
+                       <div class="sign-up" >
+                           <div class="container">
+                               <h3 style="text-align: center; padding: 80px;">Sign up and get started with Trello today.A world of productive <br>teamwork awaits!</h5>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input class="form-control signEmail" type="search" placeholder="Email" aria-label="Search">
+                                    </div>
+                                    <div class="col-4">
+                                        <a class="btn btn-primary btn-lg signBtn" href="#" role="button">Sign Up</a>
+                                    </div>
+                                </div>
+                           </div>
+                       </div>
+                        <!-- End of Sign Up Email -->
+
+                        <!-- Apps Store -->
+                        <div class="apps">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <p style="font-size: 20px;text-align: center;margin-top: 50px;margin-left: -100px;">Trello also works great on your smaller screen.</p>     
+                                        <img src="img/apple.svg" alt="" class="apple">
+                                        <img src="img/google.svg" alt="" class="google">   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                 <!-- End of Apps Store -->
+
+                 <!-- Footer -->
+                <footer class="page-footer font-small blue pt-4">   
+                <div class="container-fluid text-center text-md-left">                 
+                    <div class="row">
+                        <div class="col-12 mb-5">
+                    <select name="Country" id="country">
+                        <option value="English">English (US)</option>
+                        <option value="English">English (AU)</option>
+                        <option value="English">English (UK)</option>
+                        <option value="English">Espanol</option>
+                        <option value="English">Francais</option>
+                        </select>
+                        </div>
+                   
+                    <div class="col-12 links">
+                        <li>
+                            <a href="">Templates</a>
+                            <a href="">Pricing</a>
+                            <a href="">Jobs</a>
+                            <a href="">Blog</a>
+                            <a href="">Developers</a>
+                            <a href="">About</a>
+                            <a href="">Help</a>
+                            <a href="">Legal</a>
+                            <a href="">Cookie Settings</a>
+                            <a href="">Privacy</a>
+                        </li> 
+                    </div>
+
+                    <div class="col-12">
+                        <img src="img/attlasian.png" alt="" height="120px" width="200px">
+                    </div>
+
+                </div>
+                <div class="footer-copyright text-center ">
+                    © Copyright 2022. All rights reserved
+                </div>
+                
+
+                </footer>
+         <!-- End of Footer -->              
+      
+      <!-- Scripts -->
+      <script>
+
+        /* Script for Navbar */
+        $(window).scroll(function(){
+                $('nav').toggleClass('ontop',$(this).scrollTop()<300);
+            });
+        $(window).scroll(function(){
+                $('nav').toggleClass('scrolled',$(this).scrollTop()>300);
+            });
+        
+        /* Script for + Learn more */
+          $(document).ready(function () {
+            
+            /* Learn more 1 */
+                $("#listsMinusclick").hide();
+                $("#listsText").hide();
+                $("#listsYou").hide();
+                $("#listsPlusclick").show();
+                $("#listsPlusclick").click(function () {
+                $("#listsText").show();
+                $("#listsYou").show();
+                $("#listsPlusclick").hide();
+                $("#listsMinusclick").show();
+                });
+                $("#listsMinusclick").click(function () {
+                $("#listsText").hide();
+                $("#listsYou").hide();
+                $("#listsPlusclick").show();
+                $("#listsMinusclick").hide();
+                });
+
+            /* Learn more 2 */
+                $("#listsMinusclick_2").hide();
+                $("#listsText_2").hide();
+                $("#listsYou_2").hide();
+                $("#listsPlusclick_2").show();
+                $("#listsPlusclick_2").click(function () {
+                $("#listsText_2").show();
+                $("#listsYou_2").show();
+                $("#listsPlusclick_2").hide();
+                $("#listsMinusclick_2").show();
+                });
+                $("#listsMinusclick_2").click(function () {
+                $("#listsText_2").hide();
+                $("#listsYou_2").hide();
+                $("#listsPlusclick_2").show();
+                $("#listsMinusclick_2").hide();
+                });
+                });
+
+            /* Learn more 3 */
+                $("#listsMinusclick_3").hide();
+                $("#listsText_3").hide();
+                $("#listsYou_3").hide();
+                $("#listsPlusclick_3").show();
+                $("#listsPlusclick_3").click(function () {
+                $("#listsText_3").show();
+                $("#listsYou_3").show();
+                $("#listsPlusclick_3").hide();
+                $("#listsMinusclick_3").show();
+                });
+                $("#listsMinusclick_3").click(function () {
+                $("#listsText_3").hide();
+                $("#listsYou_3").hide();
+                $("#listsPlusclick_3").show();
+                $("#listsMinusclick_3").hide();
+                });
+
+            /* Learn more 4 */
+                $("#listsMinusclick_4").hide();
+                $("#listsText_4").hide();
+                $("#listsYou_4").hide();
+                $("#listsPlusclick_4").show();
+                $("#listsPlusclick_4").click(function () {
+                $("#listsText_4").show();
+                $("#listsYou_4").show();
+                $("#listsPlusclick_4").hide();
+                $("#listsMinusclick_4").show();
+                });
+                $("#listsMinusclick_4").click(function () {
+                $("#listsText_4").hide();
+                $("#listsYou_4").hide();
+                $("#listsPlusclick_4").show();
+                $("#listsMinusclick_4").hide();
+                });
+
+            /* Script Slides stories */
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                function plusSlides(n) {
+                showSlides(slideIndex += n);
+                }
+
+                function currentSlide(n) {
+                showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}    
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                }
+      </script>
+    
+   
+</body>
+
+</html>
